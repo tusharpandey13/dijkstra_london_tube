@@ -2,4 +2,7 @@
 An interactive visualisation for using the dijkstra's algorithm to find the shortest path between stations in the london underground.
 
 # usage
- fefefe
+ run the following command:
+ `export FLASK_APP=main.py
+  flask run`
+  
