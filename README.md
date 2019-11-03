@@ -3,6 +3,6 @@ An interactive visualisation for using the dijkstra's algorithm to find the shor
 
 # usage
  run the following command:
- `export FLASK_APP=main.py
+ `export FLASK_APP=main.py  
   flask run`
   
