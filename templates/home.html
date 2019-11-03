@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href={{ url_for('send_static', path='materialize.min.js') }}>
+    <link rel="stylesheet" href={{ url_for('send_static', path='styles.css') }}>
+
+    <script src={{ url_for('send_static', path='p5.min.js') }}></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script> -->
+    <!-- <script src={{ url_for('send_static', path='pathdata.js') }}></script> -->
+    <script src={{ url_for('send_static', path='extra.js') }}></script>
+    <script src={{ url_for('send_static', path='sketch.js') }}></script>
+    <!-- <script src={{ url_for('send_static', path='priority_queue.js') }}></script> -->
+    <!-- <script src={{ url_for('send_static', path='dijkstra.js') }}></script> -->
+    <script src={{ url_for('send_static', path='graph.js') }}></script>
+    <script src={{ url_for('send_static', path='node.js') }}></script>
+    <script src={{ url_for('send_static', path='edge.js') }}></script>
+
+
+</head>
+<body>
+    <div id="canvasHolder"></div>
+    <div id="sidebar">
+        <h1>The London Tube as a graph</h1>
+        <div class="textcontainer blue">
+            <div class="iconcontainer"><i class="material-icons left">info</i></div>
+            <div style="padding-left: 20px;">This demo shows the various stations and lines of the London subway
+            system in the form of a graph.</div>
+        </div>
+        <div class="textcontainer pink">
+            <div class="iconcontainer"><i class="material-icons left">info</i></div>
+            <div style="padding-left: 20px;">The stations are nodes, and the lines are edges.</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,101 @@
+/* fallback */
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+		format('woff2');
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-moz-font-feature-settings: 'liga';
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+.blue {
+	background-color: #0288d1;
+}
+.red {
+	background-color: #f44336;
+}
+.green {
+	background-color: #8bc34a;
+}
+.pink {
+	background-color: #f50057;
+}
+.left {
+	right: 100%;
+	margin: auto;
+}
+body {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	justify-content: start;
+	padding: 0;
+	margin: 0;
+
+	overflow: hidden;
+	height: 100vh;
+}
+
+#canvasHolder {
+	padding: 0;
+	margin: 0;
+	top: 0px;
+	left: 0px;
+}
+
+#sidebar {
+	display: flex;
+	flex-flow: column;
+	/* justify-content: start; */
+	background-color: rgb(255, 245, 245);
+	overflow-y: auto;
+	height: 100%;
+}
+
+h1 {
+	/* margin: auto; */
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(75, 75, 75);
+	text-align: right;
+	padding: 20px;
+	background-color: #facdc9;
+	border-top: #ff8a80 solid 2px;
+	border-bottom: #ff8a80 solid 2px;
+	margin-bottom: 20px;
+}
+
+.textcontainer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: start;
+	justify-items: start;
+	/* margin: auto; */
+	box-shadow: 0 -5px 5px -2px rgba(0, 0, 0, 0.205);
+	color: white;
+	/* margin: auto; */
+	text-align: right;
+	/* padding: 10px 20px 5px 20px; */
+	padding: 20px;
+	margin: 0;
+}
+
+.iconcontainer {
+	display: flex;
+	justify-content: start;
+}
