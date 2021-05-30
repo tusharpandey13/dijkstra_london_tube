@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+:root,
+html,
+body,
+.App,
+#root {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* height: 100%; */
+  width: 100%;
+}
+
+b {
+  margin: 0;
+}
+
+.stage {
+  background-color: #fff;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  box-shadow: 0 -5px 5px -5px #b2b2b2;
+}
+
+.ContentContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  background: aliceblue;
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.headingBold {
+  font-family: 'Fugaz One', cursive;
+  /* padding: 0 0 0 0.6rem; */
+  color: #607d8b;
+  font-size: 2rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 2rem 0rem 2rem 0rem;
+  color: #757575;
+}
+
+.flex-row {
+  display: flex;
+  /* flex-flow: row nowrap; */
+  align-items: baseline;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.flex-row * {
+  margin: 0 0.6rem 0 0;
+  max-width: 40%;
+  text-align: center;
+}
+
+.ControlsContainer {
+  color: #001123;
+  width: 100%;
+}
+
+a {
+  text-decoration: underline solid 4px #607d8b96;
+}
