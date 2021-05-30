@@ -1,7 +1,8 @@
 {
   "name": "react-dijkstra-london-tube",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://tusharpandey13.github.io/dijkstra_london_tube/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy:github": "yarn run build && node ./scripts/deploy-gh-pages"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
   }
 }
