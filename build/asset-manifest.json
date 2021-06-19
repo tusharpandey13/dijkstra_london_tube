@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dijkstra_london_tube/static/css/main.398a6ce5.chunk.css",
+    "main.js": "/dijkstra_london_tube/static/js/main.d6eb9f81.chunk.js",
+    "main.js.map": "/dijkstra_london_tube/static/js/main.d6eb9f81.chunk.js.map",
+    "runtime-main.js": "/dijkstra_london_tube/static/js/runtime-main.3f1483c2.js",
+    "runtime-main.js.map": "/dijkstra_london_tube/static/js/runtime-main.3f1483c2.js.map",
+    "static/js/2.43a704fd.chunk.js": "/dijkstra_london_tube/static/js/2.43a704fd.chunk.js",
+    "static/js/2.43a704fd.chunk.js.map": "/dijkstra_london_tube/static/js/2.43a704fd.chunk.js.map",
+    "static/js/3.2624bf6a.chunk.js": "/dijkstra_london_tube/static/js/3.2624bf6a.chunk.js",
+    "static/js/3.2624bf6a.chunk.js.map": "/dijkstra_london_tube/static/js/3.2624bf6a.chunk.js.map",
+    "index.html": "/dijkstra_london_tube/index.html",
+    "static/css/main.398a6ce5.chunk.css.map": "/dijkstra_london_tube/static/css/main.398a6ce5.chunk.css.map",
+    "static/js/2.43a704fd.chunk.js.LICENSE.txt": "/dijkstra_london_tube/static/js/2.43a704fd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f1483c2.js",
+    "static/js/2.43a704fd.chunk.js",
+    "static/css/main.398a6ce5.chunk.css",
+    "static/js/main.d6eb9f81.chunk.js"
+  ]
+}
